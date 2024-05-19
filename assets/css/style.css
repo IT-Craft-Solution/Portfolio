@@ -10781,7 +10781,7 @@ textarea.form-control-lg {
   line-height: 2.5rem;
 }
 .btn-rounded:hover {
-  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  background: linear-gradient(to right, #151414, var(--bs-dark));
   color: #fff;
 }
 .btn-rounded:hover span {
@@ -10840,7 +10840,7 @@ textarea.form-control-lg {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   display: inline-block;
-  background-image: linear-gradient(to right, #9926f0, #d122e3);
+  /* background-image: linear-gradient(to right, #9926f0, #d122e3); */
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -10862,11 +10862,11 @@ textarea.form-control-lg {
 }
 
 .gradient {
-  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  background: linear-gradient(to bottom, #151414, var(--bs-dark));
 }
 
 .menu {
-  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  background: #151414;
 }
 .menu li {
   padding: 0 0.7rem;
@@ -10882,7 +10882,7 @@ textarea.form-control-lg {
 }
 
 .intro-section {
-  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  background: linear-gradient(to right, #151414, var(--bs-dark));
   padding: 10rem 0 0 0;
   width: 100%;
   height: 100%;
@@ -10918,17 +10918,20 @@ textarea.form-control-lg {
 }
 .campanies__logo-box {
   max-width: 100%;
-  height: 3rem;
+  height: 10rem;
   margin-bottom: 2rem;
-  padding: 0.5rem;
+  padding: 2rem;
   text-align: center;
   position: relative;
 }
 .campanies__logo-box img {
   height: 100%;
 }
-.campanies__logo-box img:hover {
-  filter: grayscale(120);
+.campanies__logo-box:hover {
+  padding: 6px;
+  cursor: pointer;
+  box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .services {
@@ -10968,7 +10971,7 @@ textarea.form-control-lg {
 .testimonials {
   position: relative;
   padding: 0;
-  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  background: linear-gradient(to right, #151414, var(--bs-dark));
 }
 .testimonials__card {
   background-color: rgba(255, 255, 255, 0.8);
